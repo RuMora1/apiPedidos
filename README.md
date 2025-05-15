@@ -11,13 +11,14 @@
 7. Contraseña: admin123
 8. Se requiere el Driver ODBC 17 de SQL Server instalado.
 9. URL por defecto: http://127.0.0.1:5001
-
+-------------------------------------------------------------------
 El cambio de alguna credencial o parámetro debe también ser cambiado en el archivo **main.py**, en:
 
 "app.config['SQLALCHEMY_DATABASE_URI'] = (
     'mssql+pyodbc://sa:admin123@localhost/DB_PEDIDOS?driver=ODBC+Driver+17+for+SQL+Server'
 )"
 
+-------------------------------------------------------------------
 **Si hace las peticiones por medio de la página:**
 
 GET: Solo necesita llenar el campo ID.
@@ -28,6 +29,7 @@ PUT: Todos los campos son requeridos.
 
 DELETE: Solo necesita llenar el campo ID.
 
+-------------------------------------------------------------------
 **Uso de métodos en Postman:**
 
 GET: http://127.0.0.1:5001/pedidos --- Devuelve TODOS los pedidos.
@@ -58,5 +60,5 @@ PUT: http://127.0.0.1:5001/pedidos/{id} --- Actualiza un pedido de acuerdo al ID
 
 DELETE: http://127.0.0.1:5001/pedidos/{id} --- Borra el pedido del ID seleccionado
 
-
+-------------------------------------------------------------------
 
