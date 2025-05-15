@@ -22,7 +22,7 @@ Para instalar dependencias (dentro del directorio):
 pip install -r requirements.txt
 
 -------------------------------------------------------------------
-El cambio de alguna credencial o parámetro debe también ser cambiado en el archivo **main.py**, en:
+El cambio de alguna credencial o parámetro también debe ser cambiado en el archivo **main.py**, en:
 
 "app.config['SQLALCHEMY_DATABASE_URI'] = (
     'mssql+pyodbc://sa:admin123@localhost/DB_PEDIDOS?driver=ODBC+Driver+17+for+SQL+Server'
