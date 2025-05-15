@@ -3,7 +3,7 @@
 **A considerar:**
 
 1. Hecho en Flask + SQL Server 2018
-2. Está montado en local.
+2. Debe ser montado en local.
 3. El usuario debe usar el servidor Localhost en SQL Server.
 4. Nombre de la Base de Datos: DB_PEDIDOS
 5. Nombre de la Tabla: pedidos
@@ -14,7 +14,7 @@
 
 -------------------------------------------------------------------
 Se adjunta el Script SQL para la creación de la BDD y la tabla, 
-además del BackUP de la BDD, se puede usar cualquiera.
+además del BackUP de la BDD.
 
 -------------------------------------------------------------------
 Para instalar dependencias (dentro del directorio):
