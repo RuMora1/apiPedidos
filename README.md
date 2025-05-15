@@ -13,6 +13,10 @@
 9. URL por defecto: http://127.0.0.1:5001
 
 -------------------------------------------------------------------
+Se adjunta el Script SQL para la creación de la BDD y la tabla, 
+además del BackUP de la BDD, se puede usar cualquiera.
+
+-------------------------------------------------------------------
 Para instalar dependencias (dentro del directorio):
 
 pip install -r requirements.txt
