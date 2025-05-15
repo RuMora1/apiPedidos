@@ -11,6 +11,12 @@
 7. Contraseña: admin123
 8. Se requiere el Driver ODBC 17 de SQL Server instalado.
 9. URL por defecto: http://127.0.0.1:5001
+
+-------------------------------------------------------------------
+Para instalar dependencias (dentro del directorio):
+
+pip install -r requirements.txt
+
 -------------------------------------------------------------------
 El cambio de alguna credencial o parámetro debe también ser cambiado en el archivo **main.py**, en:
 
