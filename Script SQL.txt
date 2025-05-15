@@ -1,0 +1,31 @@
+-- Crear la base de datos
+CREATE DATABASE DB_PEDIDOS;
+GO
+
+-- Usar la base de datos recién creada
+USE DB_PEDIDOS;
+GO
+
+-- Para crear la tabla pedidos
+CREATE TABLE pedidos (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    cliente NVARCHAR(100) NOT NULL,
+    categoria NVARCHAR(100) NOT NULL,
+    marca NVARCHAR(100) NOT NULL,
+    producto NVARCHAR(200) NOT NULL,
+    cantidad INT NOT NULL,
+    precio DECIMAL(18, 2) NOT NULL
+);
+
+-- Insertar registros de ejemplo
+INSERT INTO pedidos (cliente, categoria, marca, producto, cantidad, precio) VALUES
+('Juan Perez', 'Ferreteria', 'Bosch', 'Taladro percutor', 2, 89990.00),
+('Maria Lopez', 'Construccion', 'Makita', 'Sierra circular', 1, 120000.00),
+('Carlos Diaz', 'Electricidad', 'Philips', 'Destornillador electrico', 4, 45000.00),
+('Ana Soto', 'Jardineria', 'Black+Decker', 'Cortacesped', 1, 150000.00),
+('Luis Torres', 'Pintura', 'Truper', 'Rodillo profesional', 6, 7500.00),
+('Paula Rojas', 'Herramientas', 'Stanley', 'Caja de herramientas', 1, 49990.00),
+('Jorge Ramirez', 'Ferreteria', 'Bosch', 'Rotomartillo', 3, 95000.00),
+('Camila Silva', 'Construccion', 'DeWalt', 'Compresor de aire', 1, 210000.00),
+('Diego Castro', 'Electricidad', 'Philips', 'Multimetro digital', 2, 38990.00),
+('Laura Fuentes', 'Jardineria', 'Husqvarna', 'Motosierra', 1, 175000.00);
