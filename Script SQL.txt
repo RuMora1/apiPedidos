@@ -1,3 +1,11 @@
+-- Habilitar login 'sa'
+ALTER LOGIN sa ENABLE;
+GO
+
+-- Establecer contraseña
+ALTER LOGIN sa WITH PASSWORD = 'admin123';
+GO
+
 -- Crear la base de datos
 CREATE DATABASE DB_PEDIDOS;
 GO
