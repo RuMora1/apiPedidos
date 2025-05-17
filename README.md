@@ -4,7 +4,7 @@
 
 1. Hecho en Flask + SQL Server 2018
 2. Debe ser montado en local.
-3. El usuario debe usar el servidor Localhost en SQL Server.
+3. El usuario debe usar el servidor "localhost" en SQL Server.
 4. Nombre de la Base de Datos: DB_PEDIDOS
 5. Nombre de la Tabla: pedidos
 6. Usuario: sa
