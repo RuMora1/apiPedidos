@@ -9,8 +9,9 @@
 5. Nombre de la Tabla: pedidos
 6. Usuario: sa
 7. Contraseña: admin123
-8. Se requiere el Driver ODBC 17 de SQL Server instalado.
-9. URL por defecto: http://127.0.0.1:5001
+8. Python 3.10 o superior requerido
+9. Se requiere el Driver ODBC 17 de SQL Server instalado.
+10. URL por defecto: http://127.0.0.1:5001
 
 -------------------------------------------------------------------
 Se adjunta el Script SQL para la creación de la BDD y la tabla, 
